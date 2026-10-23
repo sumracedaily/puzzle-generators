@@ -1,0 +1,19 @@
+{
+  "name": "@sumracedaily/puzzle-generators",
+  "version": "0.1.0",
+  "description": "Seeded puzzle generators from sumrace.com — deterministic boards from a string seed.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "demo": "node examples/demo.mjs"
+  },
+  "keywords": ["puzzle", "kakuro", "generator", "seeded", "rng", "logic"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumracedaily/puzzle-generators.git"
+  }
+}
